@@ -1,0 +1,13 @@
+System call sys_hello returned 0
+Output: Hello World from Ayokunle Adeosun
+System call sys_table returned 0
+System call sys_ get_pname 0
+PID: 986 Process: /sbin/gettyund
+System call sys_ get_pname 0
+PID: 1288 Process: /usr/sbin/mysqld_b
+System call sys_ get_pname 0
+PID: 1516 Process: /usr/sbin/mysqld_b
+System call sys_ get_pname 0
+PID: 2123 Process: /usr/lib/cups/notifier/dbus
+System call sys_ get_pname 0
+PID: 1457 Process: /usr/sbin/vmware-vmblock-fuse

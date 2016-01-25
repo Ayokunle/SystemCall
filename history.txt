@@ -1,0 +1,178 @@
+    1  sudo apt-get lamp
+    2  sudo apt-get update
+    3  sudo apt-get install apache2
+    4  ifconfig eth0 | grep inet | awk '{ print $2 }'
+    5  sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+    6  sudo mysql_install_db
+    7  sudo /usr/bin/mysql_secure_installation
+    8  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+    9  sudo nano /etc/apache2/mods-enabled/dir.conf
+   10  apt-cache search php5-
+   11  sudo service apache2 restart
+   12  cd Downloads/
+   13  ls
+   14  cd onyx-node-bundle/
+   15  dpkg -i idkit_2.72ubuntu1_amd64.deb
+   16  sudo dpkg -i idkit_2.72ubuntu1_amd64.deb
+   17  ./install-deps.sh
+   18  /usr/local/share/IDKit_PC_SDK/bin/gethwid
+   19  ls -l
+   20  sudo apt-get build-dep linux-image-`uname -r`
+   21  sudo apt-get update 
+   22  sudo apt-get build-dep linux-image-`uname -r`
+   23  cd ../../
+   24  ls -l
+   25  cd usr/src/
+   26  ls -l
+   27  sudo apt-get source linux-image-`uname -r`
+   28  ls -l
+   29  apt-get install gcc 
+   30  sudo apt-get install gcc 
+   31  cd linux-3.13.0/
+   32  make defualtconfig
+   33  make defaultconfig
+   34  sudo make defaultconfig
+   35  sudo make default
+   36  make defconfig
+   37  sudo make defconfig
+   38  sudo make menuconfig
+   39  sudo make defconfig
+   40  ls -l
+   41  make
+   42  sudo make
+   43  sudo make -j4
+   44  sudo make install 
+   45  cp -vi /boot/config-`uname -r` .config
+   46  sudo cp -vi /boot/config-`uname -r` .config
+   47  sudo apt-get install libncurses5 libncurses5-dev
+   48  make localmodconfig
+   49  su
+   50  sudo make localmodconfig
+   51  echo vesafb | sudo tee -a /etc/initramfs-tools/modules
+   52  echo fbcon | sudo tee -a /etc/initramfs-tools/modules
+   53  cd ../../../../
+   54  sudp bin/sh
+   55  sudo bin/sh
+   56  sudo -i
+   57  uname -r
+   58  cat /proc/kallsyms | grep hello
+   59  gedit hello.c
+   60  gcc hello.c 
+   61  gedit hello.c
+   62  gcc hello.c 
+   63  ./a.out 
+   64  gedit hello.c
+   65  gcc hello.c 
+   66  gedit hello.c
+   67  gedit hello.c &
+   68  gcc hello.c 
+   69  exit
+   70  sudo /bin/bash
+   71  apt-get install ncurses-dev
+   72  cd usr/src
+   73  ls -l
+   74  cd ../../usr/src/linux-3.13.0/
+   75  make bzImage
+   76  make modules
+   77  make modules_install
+   78  make install 
+   79  ls -l
+   80  d ../../../
+   81  cd ../../../boot/
+   82  cd ../usr/src/linux-3.13.0/
+   83  menu menuconfig
+   84  make menuconfig
+   85  make bzImage
+   86  make modules
+   87  make modules_install
+   88  make install 
+   89  cd ../../../boot/
+   90  mkinitramfs -o initrd.img-3.13.11-ckt27-cs470p2 3.13.11-ckt27-cs470p2
+   91  update-grub
+   92  sbin/reboot
+   93  cd ..
+   94  sbin/reboot 
+   95  ls -l
+   96  ./hello
+   97  gcc hello.c
+   98  nano hello.c
+   99  gcc hello.c
+  100  nano hello.c
+  101  gcc hello.c
+  102  ./hello
+  103  ls -l
+  104  ./a.out 
+  105  gcc hello.c hello
+  106  gcc hello hello.c
+  107  ls -l
+  108  nano hello.c
+  109  exit
+  110  Adegoke01
+  111  clear
+  112  tail /var/log/syslog
+  113  exit
+  114  sudo bin/bash
+  115  cd ../../../../
+  116  sudo bin/bash
+  117  exit
+  118  uname -r
+  119  exit
+  120  tail /var/log/syslog
+  121  ls -l
+  122  ./a.out 
+  123  tail /var/log/syslog
+  124  cat /var/log/syslog
+  125  ls -l  ../../../usr/include/
+  126  cat  ../../../usr/include/limits.h 
+  127  cd Desktop/
+  128  gcc lab_7_a.c
+  129  gcc -o lab_7_a.c lab_7_a
+  130  gcc -o lab_7_a.c
+  131  gcc lab_7_a.c
+  132  ls -l
+  133  ./a.out 
+  134  gcc lab_7_a  lab_7_a.c
+  135  gcc -o lab_7_a  lab_7_a.c
+  136  ls -l
+  137  ./lab_7_a 
+  138  gcc -o lab_7_a  lab_7_a.c
+  139  ./lab_7_a 
+  140  gcc -o lab_7_a  lab_7_a.c
+  141  ./lab_7_a 
+  142  gcc -o lab_7_a  lab_7_a.c
+  143  ./lab_7_a 
+  144  gcc -o lab_7_a  lab_7_a.c
+  145  ./lab_7_a 
+  146  gcc -o lab_7_a  lab_7_a.c
+  147  ./lab_7_a 
+  148  gcc -o lab_7_a  lab_7_a.c
+  149  ./lab_7_a 
+  150  gcc -o lab_7_a  lab_7_a.c
+  151  ./lab_7_a 
+  152  gcc -o lab_7_a  lab_7_a.c
+  153  ./lab_7_a 
+  154  gcc -o lab_7_a  lab_7_a.c
+  155  ./lab_7_a 
+  156  gcc -o lab_7_a  lab_7_a.c
+  157  ./lab_7_a 
+  158  gcc -o lab_7_a  lab_7_a.c
+  159  ./lab_7_a 
+  160  gcc -o lab_7_a  lab_7_a.c
+  161  ./lab_7_a 
+  162  gcc -o lab_7_a  lab_7_a.c
+  163  ./lab_7_a 
+  164  gcc -o lab_7_a  lab_7_a.c
+  165  ./lab_7_a 
+  166  gcc -o lab_7_a  lab_7_a.c
+  167  ./lab_7_a 
+  168  gcc -o lab_7_a  lab_7_a.c
+  169  ./lab_7_a 
+  170  gcc -o partition partition.c 
+  171  ./partition 
+  172  sudo ./partition 
+  173  ps
+  174  htop#
+  175  htop
+  176  sudo apt-get  install htop
+  177  htop
+  178  history > history.txt
